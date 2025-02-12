@@ -15,7 +15,7 @@ self.addEventListener('install', (event) => {
             cache.add('./flexv2/img/flex.png')
             cache.add('./flexv2/img/calcflex.png')
             cache.add('./flexv2/img/etanol.png')
-            cache.add('.flexv2//img/gasolina.png')
+            cache.add('/.flexv2//img/gasolina.png')
         })
     )
 
