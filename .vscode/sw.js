@@ -1,6 +1,6 @@
 /**
  * Service worker
- * @author Caio Lopes
+ * @author Guilherme Rosa Lopes
  */
 
 // Instalação (cache "armazenamento local")
@@ -9,13 +9,13 @@ self.addEventListener('install', (event) => {
         caches.open('static')
             .then((cache) => {
                 cache.add('/flexv2/')
-                cache.add('/flexv2/index.html')
-                cache.add('/flexv2/style.css')
-                cache.add('/flexv2/app.js')
-                cache.add('/flexv2/img/flex.png')
-                cache.add('/flexv2/img/calcflex.png')
-                cache.add('/flexv2/img/etanol.png')
-                cache.add('/flexv2/img/gasolina.png')
+                cache.add('/index.html')
+                cache.add('/style.css')
+                cache.add('/app.js')
+                cache.add('/img/flex.png')
+                cache.add('/img/calcflex.png')
+                cache.add('/img/etanol.png')
+                cache.add('/img/gasolina.png')
             })
     )
 })
